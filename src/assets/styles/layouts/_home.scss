@@ -1,21 +1,217 @@
 body {
   margin: 0;
   padding: 30px;
-  font-family: $font-family-sans-serif;
-  background-color: $uoc-bg;
-  color: $uoc-corporate;
+  font-family: 'Montserrat', sans-serif; 
+  background-color: $uoc-corporate;
+  color: #222;
+  font-size: 16px; 
+  display:block;
+  vertical-align: baseline;
 }
 
 .uoc-logo {
   display: block;
   margin-bottom: 20px;
-  max-width: 300px;
+  max-width: 100px;
   height: auto;
 }
 
 .uoc-title {
   font-family: $font-family-serif;
-  font-size: 36px;
-  font-weight: 700;
+  font-size: 10px;
+  font-weight: 100;
   color: $uoc-corporate;
 }
+
+  .resume {
+    width: 90%;
+    max-width: 900px;
+    margin: 30px auto;
+    font-size: 16px; 
+  }
+  
+  .resumeProfile {
+  
+    padding: 25px 35px;
+    border-bottom: 5px solid #7b6ac5;
+    background-color: #15db95;
+    transition: width 10s, height 6s;
+    color: #fff;
+  }
+  
+  .resumeProfile:hover {
+  
+    background: rgba(107, 197, 137, 0.5);
+  
+  }
+  
+  .resumeMain {
+    padding: 0 40px;
+  }
+  
+  section {
+    border-top: 1px solid #dedede;
+    padding: 20px 0 0;
+  }
+  
+  section:hover {
+    padding: 20px;
+    background: #15db95;
+    color: #fff;
+    }
+  
+  .resumeMainTitle {
+    float: left;
+    width: 25%;
+    }
+  .resumeMainContent {
+    float: right;
+    width: 72.5%;
+    }
+    
+  .resumeMainTitle h1 {
+    font-style: italic;
+    font-size: 1.6em;
+    color: #1e2988;
+    }
+    
+  .resumeMainContent h2 {
+    font-size: 1.6em;
+    margin-bottom: -2px;
+    }
+    
+  .resumeMainDetails {
+    font-size: 0.9em;
+    font-style: italic;
+    margin-bottom: 2px;
+    }
+    
+  .resumeMainSkills {
+    list-style-type: none;
+    column-count:3;
+    margin-bottom: 20px;
+    font-size: 1em;
+    color: #444;
+    }
+      
+  .resumeMainSkills ul li {
+    margin-bottom: 3px;
+    }
+  .headshot {
+    width: 12.5%;
+    float: left;
+    margin-right: 30px;
+  }
+  
+  .headshot img {
+    width: 100%;
+    height: auto;
+    border-radius: 50px;
+  }
+  
+  .nameHeading {
+    float: left;
+    font-weight: 800;
+    margin-left: 4px;
+  }
+  
+  .resumeProfileContact {
+    float: right;
+  }
+  
+  .resumeProfileContact ul {
+    list-style-type: none;
+    font-size: 0.9em;
+    margin-top: 2px;
+  }
+  
+  .resumeProfileContact ul li {
+    margin-bottom: 3px;
+    color: #444;
+  }
+  
+  .resumeProfileContact ul li a, a[href^=tel] {
+    color: #444; 
+    text-decoration: none;
+  }
+  
+  .resumeProfileContact ul li a:hover { 
+    color: #39ce77;
+  }
+  
+  p {
+    font-size: 1em;
+    line-height: 1.4em;
+    margin-bottom: 15px;
+    color: #444;
+  }
+  .skin {
+    border: 0;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #DEF2F1;
+  }
+  
+  
+  /* Responsive web design cleans elements on both right and left and moves them down. */
+  .flex {clear: both;}  
+  
+  /* Responsive Tablet Design */
+  @media all and (min-width: 602px) and (max-width: 800px) {
+    .resumeMainSkills {
+    column-count:2;
+    }
+  }
+  /* Responsive Tablet Design */
+  @media all and (max-width: 601px) {
+    .resume {
+      width: 95%;
+      margin: 10px auto;
+      min-width: 280px;
+    }
+  
+    .nameHeading .resumeProfileContact {
+      float: none;
+      width: 100%;
+      text-align: center;
+    }
+    
+    .resumeMainTitle, .resumeMainContent {
+      float: none;
+      width: 100%;
+    }
+    
+    .resumeMainTitle {
+      margin-left: -2px;
+      font-size: 1.25em;
+    }
+    
+    .resumeMainSkills {
+      column-count:2;
+    }
+  }
+  /* Responsive mobile Design */
+  @media all and (max-width: 480px) {
+    
+    section {
+      padding: 15px 0 0;
+    }
+    
+    .resumeMain {
+      padding: 0 25px;
+    }
+  
+    
+    .resumeMainSkills {
+    column-count:1;
+    }
+    
+    .nameHeading h1 {
+      line-height: .8em;
+      margin-bottom: 4px;
+    }
+  }
+  
+  
+  
