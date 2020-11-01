@@ -111,12 +111,12 @@ body {
   }
   
   .resumeProfileContact ul li {
-    margin-bottom: 3px;
+    margin-bottom: 4px;
     color: #444;
   }
   
-  .resumeProfileContact ul li a, a[href^=tel] {
-    color: #444; 
+  .resumeProfileContact ul li a {
+    color: rgb(61, 60, 60); 
     text-decoration: none;
   }
   
@@ -126,7 +126,7 @@ body {
   
   p {
     font-size: 1em;
-    line-height: 1.4em;
+    line-height: 1.5em;
     margin-bottom: 15px;
     color: #444;
   }
@@ -152,8 +152,8 @@ body {
   @media all and (max-width: 601px) {
     .resume {
       width: 95%;
-      margin: 10px auto;
-      min-width: 280px;
+      margin: 12px auto;
+      min-width: 285px;
     }
   
     .nameHeading .resumeProfileContact {
@@ -168,7 +168,7 @@ body {
     }
     
     .resumeMainTitle {
-      margin-left: -2px;
+      margin-left: -5px;
       font-size: 1.25em;
     }
     
@@ -180,11 +180,11 @@ body {
   @media all and (max-width: 480px) {
     
     section {
-      padding: 15px 0 0;
+      padding: 20px 0 0;
     }
     
     .resumeMain {
-      padding: 0 25px;
+      padding: 0 20px;
     }
   
     
@@ -193,8 +193,8 @@ body {
     }
     
     .nameHeading h1 {
-      line-height: .8em;
-      margin-bottom: 4px;
+      line-height: .9em;
+      margin-bottom: 5px;
     }
   }
   
