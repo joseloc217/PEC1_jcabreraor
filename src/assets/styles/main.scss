@@ -9,10 +9,12 @@
  * see: https://en.parceljs.org/module_resolution.html
  * see commented examples below
  */
+@import "~bootstrap/scss/bootstrap.scss";
 
 // @import "some-node-module";
 // @import "@some-company/some-node-module";
 @import "@fortawesome/fontawesome-free/css/all.css";
+
 /**
  * Import layouts
  * It's a best practice to use a partial for each page

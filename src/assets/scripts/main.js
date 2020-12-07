@@ -9,7 +9,7 @@
 /**
  * Write any other JavaScript below
  */
-
+import'bootstrap';
 +( function() {
   console.log('Hello, UOC!');
 } )();
