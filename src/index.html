@@ -9,103 +9,87 @@
     <title>QUITO FEST</title>
   </head>
   <body>
-    <header>
-      <header>
-        <!-- Header Navigation -->
-        <nav class="navbar navbar-expand-md navbar-light bg-light">
-          <a href="#" class="navbar-brand">
-              <img src="/assets/images/logo.jpeg" alt="logo">
-          </a>
-          <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-              <span class="navbar-toggler-icon"></span>
-          </button>
-    
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-              <div class="navbar-nav ml-auto">
-                  <a href="index.html" class="nav-item nav-link active">PORTADA</a>
-                  <a href="page2.html" class="nav-item nav-link">PAGE2</a>
-                  <a href="page3.html" class="nav-item nav-link">PAGE3</a>
-                  <a href="page4.html" class="nav-item nav-link">PAGE4</a>
-              </div>
+    <header class="bg-green-50 border-b-2 py-4 shadow-lg">
+        <nav class="container mx-auto  flex items-center flex-wrap px-4">
+            <a href="#"><img src="/assets/images/logo.jpeg" class="w-30 rounded-lg shadow-lg"/></a>
+            <button class="buttonHamburger">
+                <span class="block border-b-2 border-current my-1 w-6"></span>
+                <span class="block border-b-2 border-current my-1 w-6"></span>
+                <span class="block border-b-2 border-current my-1 w-6"></span>
+            </button>
+            <div class="hidden ml-auto w-full md:block md:w-auto lg:block lg:w-auto">
+                <a href="index.html" class="hover:text-indigo-600 px-4 py-2 font-bold md:inline-block block">PORTADA</a>
+                <a href="page2.html" class="hover:text-indigo-600 px-4 py-2 font-bold md:inline-block block">PAGE2</a>
+                <a href="#" class="hover:text-indigo-600 px-4 py-2 font-medium md:inline-block block">PAGE3</a>
+                <a href="#" class="hover:text-indigo-600 px-4 py-2 font-medium md:inline-block block">PAGE4</a>
             </div>
-            </nav>
-          </header>
-    <main>
-      <div class="title_pg1">
-      <h1>QUITO FEST 2020</h1><br>
-      </div>
-      <a class="more_info"href="page3.html">More info</a>
-      <div class="location">
-        <i class="fas fa-drum"></i>
-        <i class="fas fa-guitar"></i>
-        <i class="fas fa-pump-medical"></i>
-        <h7>Parque La Carolina</h7><br>
-        <p>16.Dec.2020 Quito-Ecuador</p>
-      </div>
-    <div class="container">
-      <div class="image-stack">
-        <div class="image-stack__item image_stack_top">
-          <img src="/assets/images/festival.jpg" alt="concert">
+        </nav>
+    </header>
+<main class="bg-purple-200">
+    <div class="grid grid-cols-6 grid-rows-6 gap-2">
+        <div class="col-start-2 col-end-5 row-start-1 row-end-2 inline-block">
+            <div class="mb-4 text-5xl text-right font-bold text-red-500">Parque La Carolina</div><br>
+            <p class="mb-4 text-xl text-right font-bold text-indigo-600">16.Dec.2020 Quito-Ecuador
+            <i class="fas fa-drum text-white"></i>
+            <i class="fas fa-guitar text-white"></i>
+            <i class="fas fa-pump-medical text-white"></i></p>
         </div>
-        <div class="image-stack__item image_stack_bottom">
-          <img src="/assets/images/festival2.jpg" alt="concert">
+        <div class="col-start-3 row-start-2 row-end-4 row-span-3 col-span-2">
+            <div>
+            <a href="#">
+                <img alt="festival" class=" block w-full hover:opacity-50" src="/assets/images/festival.jpg">
+            </a>
         </div>
-      </div><br>
-      <p class="about">Nulla consectetur pretium ante id pretium. Ut eu condimentum massa, et ultrices velit. Sed a justo hendrerit, 
-        pharetra diam et, finibus purus. Nullam viverra viverra nunc, aliquet volutpat est consequat finibus. Donec non nunc ultrices lorem congue fermentum nec a dui. Nulla facilisi. Nulla facilisi. Maecenas condimentum molestie turpis, ac euismod dolor varius a.
-        Pellentesque rhoncus posuere lectus, lobortis tincidunt est condimentum et. Integer et sollicitudin ante..</p>
-    </div>
+        </div>
+        <div class="col-start-2 col-end-4 row-start-3 row-end-5">
+            <div>
+            <a href="#">
+                <img alt="festival" class=" block w-full opacity-75 hover:opacity-100" src="/assets/images/festival2.jpg">
+            </a>
+        </div>
+        </div>
+        <div class="col-start-2 col-end-5 text-purple-800 row-start-5 row-end-6 text-center">
+            <p>Nulla consectetur pretium ante id pretium. Ut eu condimentum massa, et ultrices velit. Sed a justo hendrerit, 
+                pharetra diam et, finibus purus. Nullam viverra viverra nunc, aliquet volutpat est consequat finibus. Donec non nunc ultrices lorem congue fermentum nec a dui. Nulla facilisi. Nulla facilisi. Maecenas condimentum molestie turpis, ac euismod dolor varius a.
+                Pellentesque rhoncus posuere lectus, lobortis tincidunt est condimentum et. Integer et sollicitudin ante..</p></div>
+      </div>
 </main>
-<!-- Footer -->
-<footer class="page-footer font-small stylish-color-dark pt-2">
-  <div class="container text-center text-md-left">
-    <div class="row">
-      <div class="col-md-4 mx-auto">
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">QUITO FEST 2020</h5>
-        <h3>Parque la Carolina. November 06 2020</h3>
-      </div>
-      <hr class="clearfix w-100 d-md-none">
-      <div class="col-md-2 mx-auto">
-        <div class="text-center img-footer">
-          <img src="./assets/images/logo.jpeg" class="img-fluid float-center" alt="logo-header">
-      </div>
+<footer class="bg-indigo-900 text-white">
+    <div class="container mx-auto  pt-20">
+        <div class="flex flex-wrap">
+            <div class="w-full p-4  xl:mr-auto xl:w-4/12 text-right">
+                <p class="mb-4 text-xl text-center font-bold text-red-500">
+                QUITO FEST 2020</p>
+                <p class="mb-4 text-lg text-center">
+                    Parque la Carolina November 06 2020</p>
+                <div class="p-4 text-center">
+                    <a href="#"  class="socialLinks"><i class="fa-facebook-square fab"></i></a>
+                    <a href="#"  class="socialLinks" ><i class="fa-twitter-square fab"></i></a>
+                    <a href="#"  class="socialLinks" ><i class="fa-linkedin fab"></i></a>
+                </div>
+            </div>
 
-        <!-- Links -->
-        <ul class="list-unstyled">
-          <li>
-            <a href="index.html">Portada</a>
-          </li>
-          <li>
-            <a href="page2.html">Page Two</a>
-          </li>
-          <li>
-            <a href="page3.html">Page Three</a>
-          </li>
-          <li>
-            <a href="page4.html">Page Four</a>
-          </li>
-        </ul>
-      </div>
-  </div>
-  <hr>
-  <!-- Social buttons -->
-  <ul class="list-unstyled list-inline text-center">
-    <li class="list-inline-item">
-      <a class="btn-floating btn-fb mx-1">
-        <i class="fab fa-facebook-f"> </i>
-      </a>
-    </li>
-    <li class="list-inline-item">
-      <a class="btn-floating btn-tw mx-1">
-        <i class="fab fa-twitter"> </i>
-      </a>
-    </li>
-    <li class="list-inline-item">
-      <a class="btn-floating btn-gplus mx-1">
-        <i class="fab fa-google-plus-g"> </i>
-      </a>
-    </li>
-  </ul>
+            <div class="w-full p-4  xl:w-2/12 sm:w-4/12">
+                <div class="flex-grow tex-left">
+                    <img src="/assets/images/logo.jpeg" class="mb-6 w-30 rounded-lg shadow-lg"/>
+                </div>
+                <ul>
+                    <li class="mb-4">
+                        <a href="index.html" class="hover:text-indigo-200 font-bold">PORTADA</a>
+                    </li>
+                    <li class="mb-4">
+                        <a href="page2.html" class="hover:text-indigo-200 font-bold">PAGE2</a>
+                    </li>
+                    <li class="mb-4">
+                        <a href="#" class="hover:text-indigo-200">PAGE3</a>
+                    </li>
+                    <li class="mb-4">
+                        <a href="#" class="hover:text-indigo-200">PAGE4</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </footer>
 <script src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
 </body>

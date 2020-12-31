@@ -7,89 +7,164 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <title>QUITO FEST</title>
   </head>
-<body>
-  <header>
-    <!-- Header Navigation -->
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
-      <a href="#" class="navbar-brand">
-          <img src="/assets/images/logo.jpeg" alt="logo">
-      </a>
-      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-          <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-          <div class="navbar-nav ml-auto">
-              <a href="index.html" class="nav-item nav-link active">PORTADA</a>
-              <a href="page2.html" class="nav-item nav-link">PAGE2</a>
-              <a href="page3.html" class="nav-item nav-link">PAGE3</a>
-              <a href="page4.html" class="nav-item nav-link">PAGE4</a>
-          </div>
-        </div>
+<body class="h-full">
+    <header class="bg-green-50 border-b-2 py-4 shadow-lg">
+        <nav class="container mx-auto  flex items-center flex-wrap px-4">
+            <a href="#"><img src="/assets/images/logo.jpeg" class="w-30 rounded-lg shadow-lg"/></a>
+            <button class="buttonHamburger">
+                <span class="block border-b-2 border-current my-1 w-6"></span>
+                <span class="block border-b-2 border-current my-1 w-6"></span>
+                <span class="block border-b-2 border-current my-1 w-6"></span>
+            </button>
+            <div class="hidden ml-auto w-full md:block md:w-auto lg:block lg:w-auto">
+                <a href="index.html" class="hover:text-indigo-600 px-4 py-2 font-bold md:inline-block block">PORTADA</a>
+                <a href="page2.html" class="hover:text-indigo-600 px-4 py-2 font-bold md:inline-block block">PAGE2</a>
+                <a href="#" class="hover:text-indigo-600 px-4 py-2 font-medium md:inline-block block">PAGE3</a>
+                <a href="#" class="hover:text-indigo-600 px-4 py-2 font-medium md:inline-block block">PAGE4</a>
+            </div>
         </nav>
-      </header>
-  <div class="wrapper">
-    <h1>Bands</h1>
-        <div class="img-container">
-            <div class="band-img"><img src="/assets/images/singer1.jpg"alt="cantante"></div>
-            <div class="band-img"><img src="/assets/images/singer2.jpg"alt="cantante"></div>
-            <div class="band-img"><img src="/assets/images/singer3.jpg"alt="cantante"></div>
-            <div class="band-img"><img src="/assets/images/singer4.jpg"alt="cantante"></div>
-            <div class="band-img"><img src="/assets/images/singer5.jpg"alt="cantante"></div>
-            <div class="band-img"><img src="/assets/images/singer6.jpg"alt="cantante"></div>
+    </header>
+    <main>
+      <h1 class="text-5xl text-center text-purple-800 p-2 py4 font-bold">
+            BANDS
+        </h1>
+    <div class="container my-12 mx-auto px-4 md:px-12">
+        <div class="flex flex-wrap -mx-1 lg:-mx-4">
+    
+            <div class="my-1 px-1 w-full h-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+
+                <article class="overflow-hidden rounded-lg shadow-lg">
+    
+                    <a href="#">
+                        <img alt="singer" class="block h-auto w-full" src="/assets/images/singer1.jpg">
+                    </a>
+    
+                    <header class="flex items-center justify-between leading-tight p-2 md:p-4">
+                        <h1 class="text-lg">
+                            <a class="no-underline hover:underline text-black text-center" href="#">
+                                TOM SMITH
+                            </a>
+                        </h1>
+                    </header>  
+    
+            </div>
+            <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+
+                <article class="overflow-hidden rounded-lg shadow-lg">
+                    <a href="#">
+                        <img alt="Placeholder" class="block h-auto w-full" src="/assets/images/singer2.jpg">
+                    </a>
+    
+                    <header class="flex items-center justify-between leading-tight p-2 md:p-4">
+                        <h1 class="text-lg">
+                            <a class="no-underline hover:underline text-black text-center" href="#">
+                                ANGI RIVADENERIA
+                            </a>
+                        </h1>
+                    </header>
+                </article>
+            </div>
+            <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+                <article class="overflow-hidden rounded-lg shadow-lg">
+    
+                    <a href="#">
+                        <img alt="Placeholder" class="block h-auto w-full" src="/assets/images/singer3.jpg">
+                    </a>
+    
+                    <header class="flex items-center justify-between leading-tight p-2 md:p-4">
+                        <h1 class="text-lg">
+                            <a class="no-underline hover:underline text-black text-center" href="#">
+                                MARK TORRES
+                            </a>
+                        </h1>
+                    </header>
+                </article>
+            </div>
+            <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+                <article class="overflow-hidden rounded-lg shadow-lg">
+    
+                    <a href="#">
+                        <img alt="Placeholder" class="block h-auto w-full" src="/assets/images/singer4.jpg">
+                    </a>
+    
+                    <header class="flex items-center justify-between leading-tight p-2 md:p-4">
+                        <h1 class="text-lg">
+                            <a class="no-underline hover:underline text-black text-center" href="#">
+                                JENNIFER CASTRO
+                            </a>
+                        </h1>
+    
+                    </header>
+                </article>
+            </div>
+            <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+                <article class="overflow-hidden rounded-lg shadow-lg">
+                    <a href="#">
+                        <img alt="Placeholder" class="block h-auto w-full" src="/assets/images/singer5.jpg">
+                    </a>
+    
+                    <header class="flex items-center justify-between leading-tight p-2 md:p-4">
+                        <h1 class="text-lg">
+                            <a class="no-underline hover:underline text-black text-center" href="#">
+                                DESTNO
+                            </a>
+                        </h1>
+                    </header>
+                </article>
+            </div>
+            <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+                <article class="overflow-hidden rounded-lg shadow-lg">
+                    <a href="#">
+                        <img alt="Placeholder" class="block h-auto w-full" src="/assets/images/singer6.jpg">
+                    </a>
+    
+                    <header class="flex items-center justify-between leading-tight p-2 md:p-4">
+                        <h1 class="text-lg">
+                            <a class="no-underline hover:underline text-black text-center" href="#">
+                                CARLOS CHARRIS
+                            </a>
+                        </h1>
+                    </header>
+                </article>
             </div>
         </div>
-  <!-- Footer -->
-<footer class="page-footer font-small stylish-color-dark pt-2">
-  <div class="container text-center text-md-left">
-    <div class="row">
-      <div class="col-md-4 mx-auto">
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">QUITO FEST 2020</h5>
-        <h3>Parque la Carolina. November 06 2020</h3>
-      </div>
-      <hr class="clearfix w-100 d-md-none">
-      <div class="col-md-2 mx-auto">
-        <div class="text-center img-footer">
-          <img src="./assets/images/logo.jpeg" class="img-fluid float-center" alt="logo-header">
-      </div>
+    </div> 
+    <footer class="bg-indigo-900 text-white">
+        <div class="container mx-auto  pt-20">
+            <div class="flex flex-wrap">
+                <div class="w-full p-4  xl:mr-auto xl:w-4/12 text-right">
+                    <p class="mb-4 text-xl text-center font-bold text-red-500">
+                    QUITO FEST 2020</p>
+                    <p class="mb-4 text-lg text-center">
+                        Parque la Carolina November 06 2020</p>
+                    <div class="p-4 text-center">
+                        <a href="#"  class="socialLinks"><i class="fa-facebook-square fab"></i></a>
+                        <a href="#"  class="socialLinks" ><i class="fa-twitter-square fab"></i></a>
+                        <a href="#"  class="socialLinks" ><i class="fa-linkedin fab"></i></a>
+                    </div>
+                </div>
 
-        <!-- Links -->
-        <ul class="list-unstyled">
-          <li>
-            <a href="index.html">Portada</a>
-          </li>
-          <li>
-            <a href="page2.html">Page Two</a>
-          </li>
-          <li>
-            <a href="page3.html">Page Three</a>
-          </li>
-          <li>
-            <a href="page4.html">Page Four</a>
-          </li>
-        </ul>
-      </div>
-  </div>
-  <hr>
-  <!-- Social buttons -->
-  <ul class="list-unstyled list-inline text-center">
-    <li class="list-inline-item">
-      <a class="btn-floating btn-fb mx-1">
-        <i class="fab fa-facebook-f"> </i>
-      </a>
-    </li>
-    <li class="list-inline-item">
-      <a class="btn-floating btn-tw mx-1">
-        <i class="fab fa-twitter"> </i>
-      </a>
-    </li>
-    <li class="list-inline-item">
-      <a class="btn-floating btn-gplus mx-1">
-        <i class="fab fa-google-plus-g"> </i>
-      </a>
-    </li>
-  </ul>
-</footer>
-<script src="./assets/scripts/main.js"></script><!-- do not remove this line! --> 
+                <div class="w-full p-4  xl:w-2/12 sm:w-4/12">
+                    <div class="flex-grow tex-left">
+                        <img src="/assets/images/logo.jpeg" class="mb-6 w-30 rounded-lg shadow-lg"/>
+                    </div>
+                    <ul>
+                        <li class="mb-4">
+                            <a href="index.html" class="hover:text-indigo-200 font-bold">PORTADA</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="page2.html" class="hover:text-indigo-200 font-bold">PAGE2</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:text-indigo-200">PAGE3</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:text-indigo-200">PAGE4</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
